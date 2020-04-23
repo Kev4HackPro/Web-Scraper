@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-URL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
+URL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=USA'
 page = requests.get(URL)
 # print(page.content)
 
